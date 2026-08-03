@@ -1,0 +1,241 @@
+:root {
+    --uic-red: #d50032;
+    --uic-navy: #001e62;
+    --uic-light-gray: #f5f5f5;
+    --uic-dark: #1f1f1f;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--uic-dark);
+}
+
+.uic-navbar {
+    background-color: var(--uic-red);
+}
+
+.navbar-brand {
+    font-size: 1.15rem;
+}
+
+.navbar .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    margin-left: 0.5rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: white;
+}
+
+.hero {
+    min-height: 82vh;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(213, 0, 50, 0.95),
+            rgba(0, 30, 98, 0.92)
+        );
+
+    display: flex;
+    align-items: center;
+}
+
+.hero h1{
+    max-width:700px;
+}
+
+.hero p{
+    max-width:650px;
+    font-size:1.3rem;
+}
+
+.mission-section {
+    background-color: #ffffff;
+}
+
+.section-label {
+    color: var(--uic-red);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.mission-text {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.feature-card {
+    height: 100%;
+    padding: 1.5rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    background: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 30, 98, 0.12);
+}
+
+.feature-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background-color: rgba(213, 0, 50, 0.1);
+    font-size: 1.5rem;
+}
+
+.feature-card h3 {
+    color: var(--uic-navy);
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.feature-card p {
+    margin-bottom: 0;
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.seminars-section {
+    background-color: var(--uic-light-gray);
+}
+
+.seminar-card {
+    height: 100%;
+    padding: 1.75rem;
+    background-color: white;
+    border-top: 4px solid var(--uic-red);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.seminar-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 30, 98, 0.12);
+}
+
+.seminar-date {
+    color: var(--uic-red);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.seminar-card h3 {
+    margin-top: 0.8rem;
+    color: var(--uic-navy);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.seminar-speaker {
+    color: #555;
+}
+
+.seminar-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.labs-section {
+    background-color: #ffffff;
+}
+
+.lab-card {
+    height: 100%;
+    padding: 1.75rem;
+    border: 1px solid #e4e4e4;
+    border-radius: 12px;
+    background-color: #ffffff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lab-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 30, 98, 0.12);
+}
+
+.lab-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lab-card h3 {
+    color: var(--uic-navy);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.lab-lead {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.lab-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.lab-tags span {
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background-color: rgba(213, 0, 50, 0.08);
+    color: var(--uic-red);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.lab-link {
+    color: var(--uic-navy);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.lab-link:hover {
+    color: var(--uic-red);
+}
+
+.join-section {
+    background-color: var(--uic-light-gray);
+}
+
+.join-box {
+    padding: 3rem;
+    border-radius: 16px;
+    background: linear-gradient(
+        135deg,
+        var(--uic-red),
+        var(--uic-navy)
+    );
+    color: white;
+}
+
+.join-box .section-label {
+    color: white;
+    opacity: 0.8;
+}
+
+.join-box p {
+    max-width: 750px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}

@@ -3,10 +3,290 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Robotics Research Community at UIC</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
+
 <body>
-    <h1>Robotics Research Community at UIC</h1>
-    <p>Website under construction.</p>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark uic-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                Robotics Research Community @ UIC
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Seminars</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Research Labs</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">People</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero d-flex align-items-center">
+        <div class="container text-white">
+
+            <h1 class="display-3 fw-bold">
+                Robotics Research Community at UIC
+            </h1>
+
+            <p class="lead mt-4">
+                Connecting faculty, researchers, and students through
+                seminars, collaboration, and innovation.
+            </p>
+
+            <div class="mt-4">
+                <a href="#seminars" class="btn btn-light btn-lg me-3">
+                    Upcoming Seminars
+                </a>
+
+                <a href="#join" class="btn btn-outline-light btn-lg">
+                    Join the Community
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="mission-section py-5">
+        <div class="container">
+            <div class="row g-5 align-items-start">
+
+                <div class="col-lg-4">
+                    <span class="section-label">Our Community</span>
+                    <h2 class="fw-bold mt-2">Our Mission</h2>
+
+                    <p class="mission-text mt-3">
+                        Foster a vibrant robotics research community at UIC
+                        that advances knowledge, supports collaboration, and
+                        creates real-world impact.
+                    </p>
+                </div>
+
+                <div class="col-lg-8">
+                    <span class="section-label">What We Do</span>
+
+                    <div class="row g-4 mt-1">
+
+                        <div class="col-md-6 col-xl-3">
+                            <div class="feature-card">
+                                <div class="feature-icon">📅</div>
+                                <h3>Seminars</h3>
+                                <p>
+                                    Biweekly talks featuring students,
+                                    faculty, and invited speakers.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-xl-3">
+                            <div class="feature-card">
+                                <div class="feature-icon">🤝</div>
+                                <h3>Collaboration</h3>
+                                <p>
+                                    Connect researchers across laboratories
+                                    and disciplines.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-xl-3">
+                            <div class="feature-card">
+                                <div class="feature-icon">🤖</div>
+                                <h3>Research</h3>
+                                <p>
+                                    Highlight innovative robotics research
+                                    across UIC.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-xl-3">
+                            <div class="feature-card">
+                                <div class="feature-icon">🎓</div>
+                                <h3>Students</h3>
+                                <p>
+                                    Give graduate students opportunities to
+                                    present and connect.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="seminars" class="seminars-section py-5">
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-end mb-4">
+                <div>
+                    <span class="section-label">Fall 2026</span>
+                    <h2 class="fw-bold mt-2">Upcoming Seminars</h2>
+                </div>
+
+                <a href="#" class="btn btn-outline-danger">
+                    View All Seminars
+                </a>
+            </div>
+
+            <div class="row g-4" id="seminar-list">
+                <!-- Seminar cards will be inserted here -->
+            </div>
+
+        </div>
+    </section>
+
+    <section id="labs" class="labs-section py-5">
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-end mb-4">
+                <div>
+                    <span class="section-label">Explore UIC Robotics</span>
+                    <h2 class="fw-bold mt-2">Featured Research Labs</h2>
+                </div>
+
+                <a href="#" class="btn btn-outline-danger">
+                    View All Labs
+                </a>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="lab-card">
+                        <div class="lab-icon">🤖</div>
+                        <h3>Robotics Lab Name</h3>
+                        <p class="lab-lead">Faculty Director</p>
+
+                        <div class="lab-tags">
+                            <span>Robot Learning</span>
+                            <span>Manipulation</span>
+                            <span>AI</span>
+                        </div>
+
+                        <a href="#" class="lab-link">Visit Lab →</a>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="lab-card">
+                        <div class="lab-icon">🚁</div>
+                        <h3>Autonomous Systems Lab</h3>
+                        <p class="lab-lead">Faculty Director</p>
+
+                        <div class="lab-tags">
+                            <span>Aerial Robotics</span>
+                            <span>Navigation</span>
+                            <span>Control</span>
+                        </div>
+
+                        <a href="#" class="lab-link">Visit Lab →</a>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="lab-card">
+                        <div class="lab-icon">🦾</div>
+                        <h3>Human-Centered Robotics Lab</h3>
+                        <p class="lab-lead">Faculty Director</p>
+
+                        <div class="lab-tags">
+                            <span>HRI</span>
+                            <span>Assistive Robotics</span>
+                            <span>Perception</span>
+                        </div>
+
+                        <a href="#" class="lab-link">Visit Lab →</a>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="join-section py-5">
+        <div class="container">
+            <div class="join-box">
+                <div class="row align-items-center g-4">
+
+                    <div class="col-lg-8">
+                        <span class="section-label">Get Involved</span>
+
+                        <h2 class="fw-bold mt-2">
+                            Join the Robotics Research Community
+                        </h2>
+
+                        <p class="mb-0">
+                            Faculty, students, research laboratories, and invited
+                            speakers are welcome to participate in our seminars
+                            and community activities.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="mailto:okurku2@uic.edu"
+                        class="btn btn-light btn-lg">
+                            Contact Us
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Our JavaScript -->
+<script src="js/main.js"></script>
+
 </body>
 </html>
