@@ -2,43 +2,41 @@
     {
         "date": "September 2, 2026",
         "time": "11:00 AM",
-        "location": "CDRLC 1422",
-        "speaker": "TBA",
-        "title": "Robotics Research Community Seminar"
+        "location": "CDRLC 1422 and Online — Zoom link sent to mailing list subscribers",
+        "speaker": "Mark Draelos",
+        "speakerBio": "Mark Draelos is an Assistant Professor at the University of Michigan with a joint appointment between Robotics and Ophthalmology & Visual Sciences and a courtesy appointment in Biomedical Engineering. He has doctoral degrees in engineering and medicine through the Duke University Medical Scientist Training Program and worked as a physician during an intensive year-long surgical internship that coincided with the early COVID pandemic. His lab studies medical robotics and develops advanced intelligent tools to aid healthcare providers in diagnosing and treating disease, especially in microsurgical specialties like ophthalmology. His work has received recognition and support through the NIH Pathway to Independence Award (K99/R00) and the NIH Director's New Innovator Award (DP2).",
+        "title": "Robots for Expanding Access to High-Quality Eye Exams",
+        "topic": "Regular, high-quality eye exams are essential for maintaining ocular health. Optical coherence tomography (OCT) has emerged as the medical imaging modality of choice for obtaining quantitative 3D scans of the eye for this purpose. Unfortunately, OCT is difficult to perform and exquisitely sensitive to eye motion, requiring trained ophthalmic photographers in specialty clinics and mechanical stabilization of the patient's head. These barriers reduce access to high-quality OCT in the community and preclude imaging in patient populations with restricted mobility. In this talk, I will describe our work to automate and streamline OCT eye exams with robotic imaging systems. This strategy reduces operator skill requirements, adapts to the patient's positioning capabilities, and accommodates large-scale head and eye movement. I will describe our technical approach and show human imaging results in routine and challenge settings.",
+        "image": "images/speakers/square-crop-mark.jpg"
     },
     {
         "date": "September 9, 2026",
         "time": "11:00 AM",
-        "location": "CDRLC 1422",
-        "speaker": "TBA",
-        "title": "Robotics Research Community Seminar"
+        "location": "CDRLC 1422 and Online — Zoom link sent to mailing list subscribers",
+        "speaker": "Matthew Walter",
+        "speakerBio": "Matthew Walter is an associate professor and director of the Robot Intelligence through Perception Laboratory (RIPL) at the Toyota Technological Institute at Chicago (TTI-Chicago), a philanthropically endowed academic computer science institute located on the University of Chicago campus. He also holds a part-time faculty appointment in the Department of Computer Science at the University of Chicago. He is interested in developing intelligent, perceptually aware robots that are able to act robustly and effectively in unstructured environments, particularly with and alongside people. His research focuses on machine learning-based solutions that enable robots to learn to understand and interact with the people, places, and objects in their surroundings. He is particularly interested in developing methods that combine traditional sensors, including image streams and laser range data, with novel sensing modalities that include natural language speech and text.",
+        "title": "TBD",
+        "topic": "Coming soon!",
+        "image": "images/speakers/square-crop-matthew.jpg"
     },
     {
         "date": "September 30, 2026",
         "time": "11:00 AM",
-        "location": "CDRLC 1422",
-        "speaker": "TBA",
-        "title": "Robotics Research Community Seminar"
-    },
-    {
-        "date": "October 14, 2026",
-        "time": "11:00 AM",
-        "location": "CDRLC 1422",
-        "speaker": "TBA",
-        "title": "Robotics Research Community Seminar"
-    },
-    {
-        "date": "October 28, 2026",
-        "time": "11:00 AM",
-        "location": "CDRLC 1422",
-        "speaker": "TBA",
-        "title": "Robotics Research Community Seminar"
+        "location": "CDRLC 1422 and Online — Zoom link sent to mailing list subscribers",
+        "speaker": "Nelson Rosa",
+        "speakerBio": "Nelson Rosa is an assistant professor in the Mechanical, Materials, and Aerospace department at the Illinois Institute of Technology. He received his doctoral degree in mechanical engineering from Dartmouth University in 2018. He runs the Noonsmouth Robotics Lab, which focuses on addressing fundamental problems and design challenges in generating desired motions for robots with nonsmooth dynamics when getting themselves or an object from one location to the next. His broader research interests include hybrid dynamical systems, embedded/computer systems, algorithmic design, robotics, and legged locomotion.",
+        "title": "TBD",
+        "topic": "Coming soon!",
+        "image": "images/speakers/square-crop-nelson.jpg"
     },
     {
         "date": "November 11, 2026",
         "time": "11:00 AM",
-        "location": "CDRLC 1422",
-        "speaker": "TBA",
-        "title": "Robotics Research Community Seminar"
+        "location": "CDRLC 1422 and Online — Zoom link sent to mailing list subscribers",
+        "speaker": "Vince Kurtz",
+        "speakerBio": "Vince Kurtz is an assistant professor at DePaul's School of Computing. His research focuses on planning, simulation, and control of high-degree-of-freedom robots, with the long-term goal of enabling new tools that amplify human capabilities. He is particularly interested in techniques that enable safe and reliable contact-rich interactions with the environment, as well as methods that generalize across legged locomotion and dexterous manipulation tasks.",
+        "title": "TBD",
+        "topic": "Coming soon!",
+        "image": "images/speakers/square-crop-vince.jpg"
     }
 ]

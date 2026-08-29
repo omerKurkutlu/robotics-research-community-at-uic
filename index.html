@@ -35,27 +35,23 @@
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Seminars</a>
+                        <a class="nav-link" href="#seminars">Seminars</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Research Labs</a>
+                        <a class="nav-link" href="#labs">Research Labs</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">People</a>
+                        <a class="nav-link" href="previous-seminars.html">Gallery</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#mission">About</a>
                     </li>
 
                 </ul>
@@ -64,7 +60,7 @@
         </div>
     </nav>
 
-    <section class="hero d-flex align-items-center">
+    <section id="home" class="hero d-flex align-items-center">
         <div class="container text-white">
 
             <h1 class="display-3 fw-bold">
@@ -81,15 +77,48 @@
                     Upcoming Seminars
                 </a>
 
-                <a href="#join" class="btn btn-outline-light btn-lg">
-                    Join the Community
+                <a href="https://groups.google.com/g/uic-robotics" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-lg">
+                    Join the Mailing List
                 </a>
             </div>
 
         </div>
     </section>
 
-    <section class="mission-section py-5">
+    <section id="seminars" class="seminars-section py-5">
+        <div class="seminar-hero">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-end mb-4">
+                    <div>
+                        <span class="section-label section-label-light">Featured</span>
+                        <h2 class="fw-bold mt-2 text-white">Upcoming Seminars</h2>
+                    </div>
+
+                    <a href="#seminars" class="btn btn-light btn-outline-light text-dark border-0">
+                        See Full Schedule
+                    </a>
+                </div>
+
+                <div class="talk-slider-wrapper">
+                    <button class="talk-slider-btn talk-slider-prev" type="button" aria-label="Previous talk">
+                        ←
+                    </button>
+
+                    <div class="talk-slider">
+                        <div class="talk-track" id="coming-talk-list"></div>
+                    </div>
+
+                    <button class="talk-slider-btn talk-slider-next" type="button" aria-label="Next talk">
+                        →
+                    </button>
+                </div>
+
+                <div class="talk-slider-dots" id="talk-slider-dots" aria-label="Speaker navigation"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mission" class="mission-section py-5">
         <div class="container">
             <div class="row g-5 align-items-start">
 
@@ -111,7 +140,6 @@
 
                         <div class="col-md-6 col-xl-3">
                             <div class="feature-card">
-                                <div class="feature-icon">📅</div>
                                 <h3>Seminars</h3>
                                 <p>
                                     Biweekly talks featuring students,
@@ -122,7 +150,6 @@
 
                         <div class="col-md-6 col-xl-3">
                             <div class="feature-card">
-                                <div class="feature-icon">🤝</div>
                                 <h3>Collaboration</h3>
                                 <p>
                                     Connect researchers across laboratories
@@ -133,7 +160,6 @@
 
                         <div class="col-md-6 col-xl-3">
                             <div class="feature-card">
-                                <div class="feature-icon">🤖</div>
                                 <h3>Research</h3>
                                 <p>
                                     Highlight innovative robotics research
@@ -144,7 +170,6 @@
 
                         <div class="col-md-6 col-xl-3">
                             <div class="feature-card">
-                                <div class="feature-icon">🎓</div>
                                 <h3>Students</h3>
                                 <p>
                                     Give graduate students opportunities to
@@ -157,27 +182,6 @@
                 </div>
 
             </div>
-        </div>
-    </section>
-
-    <section id="seminars" class="seminars-section py-5">
-        <div class="container">
-
-            <div class="d-flex justify-content-between align-items-end mb-4">
-                <div>
-                    <span class="section-label">Fall 2026</span>
-                    <h2 class="fw-bold mt-2">Upcoming Seminars</h2>
-                </div>
-
-                <a href="#" class="btn btn-outline-danger">
-                    View All Seminars
-                </a>
-            </div>
-
-            <div class="row g-4" id="seminar-list">
-                <!-- Seminar cards will be inserted here -->
-            </div>
-
         </div>
     </section>
 
@@ -199,49 +203,46 @@
 
                 <div class="col-md-6 col-lg-4">
                     <article class="lab-card">
-                        <div class="lab-icon">🤖</div>
-                        <h3>Robotics Lab Name</h3>
-                        <p class="lab-lead">Faculty Director</p>
+                        <h3>Adaptive Robotics Lab</h3>
+                        <p class="lab-lead">Faculty director: Yifan Zhu</p>
 
                         <div class="lab-tags">
-                            <span>Robot Learning</span>
-                            <span>Manipulation</span>
-                            <span>AI</span>
-                        </div>
-
-                        <a href="#" class="lab-link">Visit Lab →</a>
-                    </article>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <article class="lab-card">
-                        <div class="lab-icon">🚁</div>
-                        <h3>Autonomous Systems Lab</h3>
-                        <p class="lab-lead">Faculty Director</p>
-
-                        <div class="lab-tags">
-                            <span>Aerial Robotics</span>
-                            <span>Navigation</span>
+                            <span>Adaptive Robotics</span>
                             <span>Control</span>
+                            <span>Autonomy</span>
                         </div>
 
-                        <a href="#" class="lab-link">Visit Lab →</a>
+                        <a href="https://adaptive-robotics-lab.github.io/" target="_blank" rel="noopener noreferrer" class="lab-link">Visit Lab →</a>
                     </article>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <article class="lab-card">
-                        <div class="lab-icon">🦾</div>
-                        <h3>Human-Centered Robotics Lab</h3>
-                        <p class="lab-lead">Faculty Director</p>
+                        <h3>Resilient Ubiquitous Intelligence Computing (RUIC) Lab</h3>
+                        <p class="lab-lead">Faculty director: Arman Roohi</p>
 
                         <div class="lab-tags">
-                            <span>HRI</span>
-                            <span>Assistive Robotics</span>
-                            <span>Perception</span>
+                            <span>Ubiquitous Computing</span>
+                            <span>Intelligence</span>
+                            <span>Resilience</span>
                         </div>
 
-                        <a href="#" class="lab-link">Visit Lab →</a>
+                        <a href="https://ruic.lab.uic.edu/" target="_blank" rel="noopener noreferrer" class="lab-link">Visit Lab →</a>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <article class="lab-card">
+                        <h3>Rehabilitation Robotics Laboratory</h3>
+                        <p class="lab-lead">Faculty director: Myunghee Kim</p>
+
+                        <div class="lab-tags">
+                            <span>Rehabilitation</span>
+                            <span>Assistive Robotics</span>
+                            <span>Human Factors</span>
+                        </div>
+
+                        <a href="https://rehab-robotics.lab.uic.edu/" target="_blank" rel="noopener noreferrer" class="lab-link">Visit Lab →</a>
                     </article>
                 </div>
 
@@ -263,15 +264,17 @@
 
                         <p class="mb-0">
                             Faculty, students, research laboratories, and invited
-                            speakers are welcome to participate in our seminars
-                            and community activities.
+                            speakers are welcome to participate in our online seminars
+                            and community activities. Zoom links are sent to members of
+                            the mailing list.
                         </p>
                     </div>
 
                     <div class="col-lg-4 text-lg-end">
-                        <a href="mailto:okurku2@uic.edu"
+                        <a href="https://groups.google.com/g/uic-robotics"
+                        target="_blank" rel="noopener noreferrer"
                         class="btn btn-light btn-lg">
-                            Contact Us
+                            Join the Mailing List
                         </a>
                     </div>
 
