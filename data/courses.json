@@ -1,0 +1,393 @@
+[
+    {
+        "code": "ECE 452",
+        "title": "Robotics: Algorithms and Control",
+        "department": "ECE",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "core",
+        "description": "Kinematic and dynamic modeling of robots; configuration space; motion planning algorithms; control of robots; sensors and perception; reasoning; mobile robots."
+    },
+    {
+        "code": "ECE 454",
+        "title": "Mechatronic Embedded Systems Design",
+        "department": "ECE",
+        "level": "Undergraduate & Graduate",
+        "hours": "4 or 5",
+        "tier": "core",
+        "description": "Design and fabrication of scaled-down autonomous vehicles from an embedded-systems perspective: motors, microcontrollers, power supply, sensors and control algorithms, culminating in a racing competition."
+    },
+    {
+        "code": "ECE 451",
+        "title": "Control Engineering",
+        "department": "ECE",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "core",
+        "description": "Continuous- and discrete-time state-space models; solutions to state equations; stability; reachability/controllability; state feedback and tracking; observability, observers, output feedback; optimal control and estimation."
+    },
+    {
+        "code": "ECE 350",
+        "title": "Principles of Automatic Control",
+        "department": "ECE",
+        "level": "Undergraduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Transfer functions; block diagrams; flow graphs; state-space canonical forms; stability analysis; digital control methods."
+    },
+    {
+        "code": "ECE 550",
+        "title": "Linear Systems Theory and Design",
+        "department": "ECE",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "State-variable description, linear operators, impulse-response matrix, controllability, observability, and state-feedback design."
+    },
+    {
+        "code": "ECE 551",
+        "title": "Optimal Control",
+        "department": "ECE",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Optimal control of dynamic systems in continuous and discrete time; maximum principle; dynamic programming and constraints."
+    },
+    {
+        "code": "ECE 552",
+        "title": "Nonlinear Control",
+        "department": "ECE",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Nonlinear phenomena, linear and piecewise-linear approximations, describing functions, servomechanisms, phase plane, limit cycles, and Lyapunov stability theory."
+    },
+    {
+        "code": "ECE 266",
+        "title": "Introduction to Embedded Systems",
+        "department": "ECE",
+        "level": "Undergraduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Microcontrollers, instruction sets, data representation, assembly and mixed C/assembly programming, memory organization, interrupt processing, and I/O interfacing."
+    },
+    {
+        "code": "ECE 415",
+        "title": "Image Analysis and Computer Vision I",
+        "department": "ECE",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "related",
+        "description": "Image formation, geometry and stereo; 2-D image analysis by Fourier and other transforms; image enhancement, color, and segmentation."
+    },
+    {
+        "code": "ECE 515",
+        "title": "Image Analysis and Computer Vision II",
+        "department": "ECE",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "2-D and 3-D shape representation, segmentation, camera and stereo modeling, motion, and generic object and face recognition."
+    },
+    {
+        "code": "ECE 407",
+        "title": "Pattern Recognition I",
+        "department": "ECE",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "related",
+        "description": "Design of automated systems for detection, recognition, classification and diagnosis using parametric and nonparametric decision-making techniques."
+    },
+    {
+        "code": "ECE 531",
+        "title": "Detection and Estimation Theory",
+        "department": "ECE",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Bayes, Neyman-Pearson and minimax detection for discrete- and continuous-time random processes; estimation of random and non-random signal parameters."
+    },
+    {
+        "code": "ECE 516",
+        "title": "Adaptive Digital Filters",
+        "department": "ECE",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Optimal filters, Wiener and Kalman filters; signal modeling; adaptive filters for channel equalization, echo and noise cancellation, and linear prediction."
+    },
+    {
+        "code": "ECE 559",
+        "title": "Neural Networks",
+        "department": "ECE",
+        "level": "Graduate",
+        "hours": "4",
+        "crosslist": "CS 559",
+        "tier": "related",
+        "description": "Neuron models, learning methods, the perceptron, nonlinear optimization, backpropagation, associative memory, Hopfield networks, SVM, SOM, PCA, convolutional networks and deep learning."
+    },
+    {
+        "code": "CS 531",
+        "title": "Social Robotics and Human-Robot Interaction",
+        "department": "CS",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "core",
+        "description": "Research and design in human-robot interaction: user mental models, social cues, interaction modeling, anthropomorphism, verbal and non-verbal communication and emotion, environmental mapping, proxemics, and AI/ML/NLP in robotics."
+    },
+    {
+        "code": "CS 594",
+        "title": "Special Topics: Probabilistic Robotics",
+        "department": "CS",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "core",
+        "description": "Recursive state estimation, Markov localization, Monte Carlo localization, and simultaneous localization and mapping (SLAM). Offered periodically as a special-topics section."
+    },
+    {
+        "code": "CS 411",
+        "title": "Artificial Intelligence I",
+        "department": "CS",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "related",
+        "description": "Intelligence and AI, autonomous agents, agent architectures and environment types, search and adversarial search, search in complex environments, logic and probability, learning, and generative AI."
+    },
+    {
+        "code": "CS 511",
+        "title": "Artificial Intelligence II",
+        "department": "CS",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Predicate logic and resolution, reasoning under uncertainty and incomplete information, state and change, planning, temporal reasoning, knowledge representation, learning, and advanced search."
+    },
+    {
+        "code": "CS 412",
+        "title": "Introduction to Machine Learning",
+        "department": "CS",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "related",
+        "description": "Mechanism, implementation and application of systems that improve from experience: classification, density estimation, clustering, and online learning."
+    },
+    {
+        "code": "CS 512",
+        "title": "Advanced Machine Learning",
+        "department": "CS",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Structured data modeling, probabilistic inference for big data, deep learning, and large-scale optimization."
+    },
+    {
+        "code": "CS 415",
+        "title": "Computer Vision I",
+        "department": "CS",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "related",
+        "description": "Image filtering, feature detection, description and matching, image segmentation, and object recognition, with hands-on projects."
+    },
+    {
+        "code": "CS 515",
+        "title": "Advanced Computer Vision",
+        "department": "CS",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Analysis of 3-D scene images: shape from shading, texture and line drawings, surface orientation and representation, and reconstruction of 3-D scenes."
+    },
+    {
+        "code": "CS 518",
+        "title": "Deep Learning for Computer Vision",
+        "department": "CS",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Convolutional networks for object recognition, recurrent networks for video modeling, generative adversarial networks, and attention models."
+    },
+    {
+        "code": "ME 410",
+        "title": "Automation and Robotics Applications",
+        "department": "MIE",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "core",
+        "description": "Robot kinematics and dynamics; robot design; trajectory planning; and pneumatic and hydraulic system design with practical applications."
+    },
+    {
+        "code": "ME 411",
+        "title": "Mechatronics I",
+        "department": "MIE",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "crosslist": "IE 411",
+        "tier": "core",
+        "description": "Elements of mechatronic systems: sensors, actuators, microcontrollers, modeling and hardware-in-the-loop simulation, with an electromechanical laboratory."
+    },
+    {
+        "code": "ME 510",
+        "title": "Robotic Manipulators",
+        "department": "MIE",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "core",
+        "description": "Description of robotic manipulators; gripper trajectory execution; manipulator design, degrees of freedom, mobility and workspace; special link positions; static and dynamic force transmission."
+    },
+    {
+        "code": "ME 511",
+        "title": "Mechatronics II",
+        "department": "MIE",
+        "level": "Graduate",
+        "hours": "4",
+        "crosslist": "IE 511",
+        "tier": "core",
+        "description": "Microcontrollers in electro-mechanical systems for measurement and control; interface hardware; real-time software and development tools; applications in robotic motion control and factory automation."
+    },
+    {
+        "code": "ME 545",
+        "title": "Wearable Robots for Assistance and Rehabilitation",
+        "department": "MIE",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "core",
+        "description": "Wearable robots that help people with disabilities and control methods for electromechanical devices that physically interact with humans, such as robotic prostheses and exoskeletons."
+    },
+    {
+        "code": "ME 464",
+        "title": "Virtual Automation",
+        "department": "MIE",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "crosslist": "IE 464",
+        "tier": "core",
+        "description": "Manufacturing and automation modeling with CAD/CAM and computer-integrated manufacturing; virtual manufacturing; industrial robots and automated factory models within virtual environments."
+    },
+    {
+        "code": "ME 512",
+        "title": "Automatic Control of Mechanical Systems",
+        "department": "MIE",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "System modeling and performance evaluation; modern control-system design and analysis; real-time computer control of engines, manufacturing processes and biomechanical systems."
+    },
+    {
+        "code": "ME 412",
+        "title": "Dynamic Systems Analysis I",
+        "department": "MIE",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "related",
+        "description": "Classical control theory, feedback, Laplace transforms and transfer functions, and compensator design."
+    },
+    {
+        "code": "ME 312",
+        "title": "Dynamic Systems and Control",
+        "department": "MIE",
+        "level": "Undergraduate",
+        "hours": "3",
+        "tier": "related",
+        "description": "Dynamics of linear systems and the analysis and design of feedback control systems for mechanical systems, using analytical and computational approaches."
+    },
+    {
+        "code": "ME 320",
+        "title": "Mechanisms and Dynamics of Machinery",
+        "department": "MIE",
+        "level": "Undergraduate",
+        "hours": "3 or 4",
+        "tier": "related",
+        "description": "Kinematic analysis and synthesis of mechanisms: linkages, cams, spur gears and gear trains; dynamic forces in machines, applicable to manipulator design."
+    },
+    {
+        "code": "ME 409",
+        "title": "Advanced Kinematics I",
+        "department": "MIE",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "related",
+        "description": "Kinematic synthesis of planar linkages with higher-order, precision-point and approximate synthesis, and a unified treatment of position, function and path-angle problems."
+    },
+    {
+        "code": "ME 509",
+        "title": "Advanced Kinematics II",
+        "department": "MIE",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Spatial transformations and displacements; design for body guidance; closure analysis, branching, rotatability, differential kinematics and numerical solutions."
+    },
+    {
+        "code": "ME 413",
+        "title": "Dynamics of Mechanical Systems",
+        "department": "MIE",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "related",
+        "description": "Advanced dynamical analysis: Lagrange's equation, Hamilton's principle, and Newton-Euler equations for rigid bodies, fundamental to robot dynamics."
+    },
+    {
+        "code": "ME 210",
+        "title": "Engineering Dynamics",
+        "department": "MIE",
+        "level": "Undergraduate",
+        "hours": "3",
+        "tier": "related",
+        "description": "Dynamics of particles and rigid bodies, with kinematics in several coordinate systems and kinetics including Newton's second law and impact analysis. Foundation for robotics coursework."
+    },
+    {
+        "code": "BME 475",
+        "title": "Neural Engineering I: Introduction to Hybrid Neural Systems",
+        "department": "BME",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "core",
+        "description": "Modeling and design of functional neural interfaces for in vivo and in vitro applications; electrodes and molecular coatings; neural prostheses and biopotential control of robotics."
+    },
+    {
+        "code": "BME 489",
+        "title": "Human Augmentics",
+        "department": "BME",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "core",
+        "description": "Technologies for augmentation of human capabilities: human limitations, implants and wearable technologies, brain-computer interfaces, exoskeletons, and sensors and networks, with project work."
+    },
+    {
+        "code": "BME 574",
+        "title": "Human Movement and Neural Control",
+        "department": "BME",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Musculoskeletal biomechanics and neural control of human movement: measurement (EEG, fMRI, EMG, force sensors, motion tracking), rigid-body dynamics, modeling, control theory and motor learning."
+    },
+    {
+        "code": "BME 576",
+        "title": "Sensory Prostheses Engineering",
+        "department": "BME",
+        "level": "Graduate",
+        "hours": "4",
+        "tier": "related",
+        "description": "Prosthetic devices for damaged sensory systems: physiology, technology and information flow in hybrid systems, including visual, auditory, neuromuscular and haptic applications."
+    },
+    {
+        "code": "BME 452",
+        "title": "Biocontrol",
+        "department": "BME",
+        "level": "Undergraduate & Graduate",
+        "hours": "3 or 4",
+        "tier": "related",
+        "description": "Characteristics of physiological systems using the framework of linear systems and control theory; stability and its relationship to pathology and control function."
+    },
+    {
+        "code": "BME 476",
+        "title": "Neural Engineering I Laboratory",
+        "department": "BME",
+        "level": "Undergraduate & Graduate",
+        "hours": "2",
+        "tier": "related",
+        "description": "Hands-on experience with engineered neural systems, emphasizing neuroprostheses and biosensors through computational and experimental models."
+    }
+]
