@@ -54,6 +54,12 @@
         "image": "images/faculty/milos-zefran.jpg"
     },
     {
+        "name": "Arman Roohi",
+        "department": "ECE",
+        "link": "https://ece.uic.edu/profiles/arman/",
+        "image": "images/faculty/arman-roohi.png"
+    },
+    {
         "name": "Myunghee Kim",
         "department": "MIE",
         "link": "https://rehab-robotics.lab.uic.edu/profiles/kim-myunghee/",
