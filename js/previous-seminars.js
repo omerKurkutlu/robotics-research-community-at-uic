@@ -1,31 +1,25 @@
 const gallery = document.getElementById('previous-seminars-gallery');
 
 if (gallery) {
-    const folderUrl = 'images/previous%20seminars/';
-
-    fetch(folderUrl)
+    // Image list comes from a manifest file. GitHub Pages does not serve
+    // directory listings, so the folder cannot be scraped at runtime.
+    // To add a photo: drop it in "images/previous seminars/" and add an
+    // entry to data/previous-seminars.json.
+    fetch('data/previous-seminars.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Could not load previous seminar images.');
             }
 
-            return response.text();
+            return response.json();
         })
-        .then(html => {
-            const links = [...html.matchAll(/href=["']([^"']+)["']/g)]
-                .map(match => match[1])
-                .filter(href => {
-                    const lower = href.toLowerCase();
-                    return !href.startsWith('/') &&
-                        !href.startsWith('..') &&
-                        !href.startsWith('?') &&
-                        !href.endsWith('/') &&
-                        /\.(jpe?g|png|gif|webp|bmp|svg)$/i.test(lower);
-                });
+        .then(manifest => {
+            const folderUrl = manifest.folder || 'images/previous seminars/';
+            const entries = (manifest.images || [])
+                .map(item => (typeof item === 'string' ? { file: item } : item))
+                .filter(item => item && item.file);
 
-            const files = [...new Set(links.map(link => decodeURIComponent(link)))];
-
-            if (files.length === 0) {
+            if (entries.length === 0) {
                 gallery.innerHTML = `
                     <div class="empty-state">
                         No previous seminar images have been added yet.
@@ -43,34 +37,34 @@ if (gallery) {
             const thumbs = document.createElement('div');
             thumbs.className = 'gallery-thumbs';
 
-            files.forEach((file, index) => {
-                const safeFilePath = `${folderUrl}${encodeURIComponent(file)}`;
+            const encodePath = file =>
+                `${folderUrl}${file}`.split('/').map(encodeURIComponent).join('/');
+
+            entries.forEach((entry, index) => {
+                const safeFilePath = encodePath(entry.file);
+                const caption = entry.caption
+                    || entry.file.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ');
 
                 const item = document.createElement('a');
                 item.href = safeFilePath;
                 item.target = '_blank';
                 item.rel = 'noopener noreferrer';
                 item.className = 'gallery-item';
-                item.setAttribute('aria-label', `Open previous seminar image ${file}`);
+                item.setAttribute('aria-label', `Open previous seminar image: ${caption}`);
                 item.innerHTML = `
-                    <img src="${safeFilePath}" alt="Previous seminar ${file}">
-                    <div class="gallery-caption">${file.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ')}</div>
+                    <img src="${safeFilePath}" alt="${caption}" loading="lazy">
+                    <div class="gallery-caption">${caption}</div>
                 `;
 
                 const thumb = document.createElement('img');
                 thumb.src = safeFilePath;
-                thumb.alt = `Thumbnail for ${file}`;
+                thumb.alt = `Thumbnail: ${caption}`;
+                thumb.loading = 'lazy';
                 thumb.className = `thumb ${index === 0 ? 'active' : ''}`;
                 thumb.addEventListener('click', () => {
-                    const cards = [...track.children];
-                    const target = cards[index];
-                    if (target) {
-                        const offset = target.offsetLeft;
-                        track.parentElement.scrollTo({ left: offset, behavior: 'smooth' });
-                    }
-                    [...thumbs.children].forEach((button, buttonIndex) => {
-                        button.classList.toggle('active', buttonIndex === index);
-                    });
+                    currentIndex = index;
+                    updateSlide(currentIndex);
+                    resetAutoSlide();
                 });
 
                 track.appendChild(item);
@@ -91,21 +85,22 @@ if (gallery) {
             };
 
             let currentIndex = 0;
-            let autoSlide = setInterval(() => {
-                currentIndex = (currentIndex + 1) % files.length;
-                updateSlide(currentIndex);
-            }, 5000);
+            let autoSlide;
 
-            stage.addEventListener('mouseenter', () => clearInterval(autoSlide));
-            stage.addEventListener('mouseleave', () => {
+            const resetAutoSlide = () => {
+                clearInterval(autoSlide);
                 autoSlide = setInterval(() => {
-                    currentIndex = (currentIndex + 1) % files.length;
+                    currentIndex = (currentIndex + 1) % entries.length;
                     updateSlide(currentIndex);
                 }, 5000);
-            });
+            };
 
+            stage.addEventListener('mouseenter', () => clearInterval(autoSlide));
+            stage.addEventListener('mouseleave', resetAutoSlide);
             window.addEventListener('resize', () => updateSlide(currentIndex));
+
             updateSlide(0);
+            resetAutoSlide();
         })
         .catch(() => {
             gallery.innerHTML = `
