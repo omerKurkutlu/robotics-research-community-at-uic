@@ -43,7 +43,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#labs">Research Labs</a>
+                        <a class="nav-link" href="faculty-labs.html">Faculty &amp; Research Labs</a>
                     </li>
 
                     <li class="nav-item">
@@ -194,59 +194,29 @@
                     <h2 class="fw-bold mt-2">Featured Research Labs</h2>
                 </div>
 
-                <a href="#" class="btn btn-outline-danger">
-                    View All Labs
+                <a href="faculty-labs.html" class="btn btn-outline-danger">
+                    View All Faculty &amp; Labs
                 </a>
             </div>
 
-            <div class="row g-4">
+            <div class="lab-carousel">
+                <button class="lab-carousel-btn lab-carousel-prev" type="button" aria-label="Scroll to previous labs">
+                    ←
+                </button>
 
-                <div class="col-md-6 col-lg-4">
-                    <article class="lab-card">
-                        <h3>Adaptive Robotics Lab</h3>
-                        <p class="lab-lead">Faculty director: Yifan Zhu</p>
-
-                        <div class="lab-tags">
-                            <span>Adaptive Robotics</span>
-                            <span>Control</span>
-                            <span>Autonomy</span>
-                        </div>
-
-                        <a href="https://adaptive-robotics-lab.github.io/" target="_blank" rel="noopener noreferrer" class="lab-link">Visit Lab →</a>
-                    </article>
+                <div class="lab-carousel-viewport">
+                    <div class="lab-carousel-track" id="lab-carousel-track"></div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
-                    <article class="lab-card">
-                        <h3>Resilient Ubiquitous Intelligence Computing (RUIC) Lab</h3>
-                        <p class="lab-lead">Faculty director: Arman Roohi</p>
-
-                        <div class="lab-tags">
-                            <span>Ubiquitous Computing</span>
-                            <span>Intelligence</span>
-                            <span>Resilience</span>
-                        </div>
-
-                        <a href="https://ruic.lab.uic.edu/" target="_blank" rel="noopener noreferrer" class="lab-link">Visit Lab →</a>
-                    </article>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <article class="lab-card">
-                        <h3>Rehabilitation Robotics Laboratory</h3>
-                        <p class="lab-lead">Faculty director: Myunghee Kim</p>
-
-                        <div class="lab-tags">
-                            <span>Rehabilitation</span>
-                            <span>Assistive Robotics</span>
-                            <span>Human Factors</span>
-                        </div>
-
-                        <a href="https://rehab-robotics.lab.uic.edu/" target="_blank" rel="noopener noreferrer" class="lab-link">Visit Lab →</a>
-                    </article>
-                </div>
-
+                <button class="lab-carousel-btn lab-carousel-next" type="button" aria-label="Scroll to next labs">
+                    →
+                </button>
             </div>
+
+            <p class="lab-carousel-footnote">
+                Showing a preview —
+                <a href="faculty-labs.html">view the full Faculty &amp; Research Labs directory</a>.
+            </p>
         </div>
     </section>
 
@@ -290,6 +260,7 @@
 
 <!-- Our JavaScript -->
 <script src="js/main.js"></script>
+<script src="js/labs-carousel.js"></script>
 
 </body>
 </html>

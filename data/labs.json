@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Robotics Lab at the Shirley Ryan Ability Lab",
+        "department": "BME",
+        "link": "https://www.sralab.org/research/labs/Robotics-Lab",
+        "directors": ["James Patton", "Sandro Mussa-Ivaldi"]
+    },
+    {
+        "name": "Laboratory of Engineering for Gait Science",
+        "department": "BME",
+        "link": "https://www.sralab.org/research/labs/legs-lab",
+        "directors": ["Ming Wu"]
+    },
+    {
+        "name": "Micromechanic Systems Laboratory (MSL)",
+        "department": "CS",
+        "link": "https://micromechatronic.lab.uic.edu/",
+        "directors": []
+    },
+    {
+        "name": "The Air Microfluidic and Bio-surveillance Group (AMFBG)",
+        "department": "CS",
+        "link": "https://amfg.lab.uic.edu/",
+        "directors": ["Igor Paprotny"]
+    },
+    {
+        "name": "Adaptive Robotics Lab",
+        "department": "CS",
+        "link": "https://adaptive-robotics-lab.github.io/",
+        "directors": ["Yifan Zhu"]
+    },
+    {
+        "name": "Resilient Ubiquitous Intelligence Computing (RUIC) Lab",
+        "department": "ECE",
+        "link": "https://ruic.lab.uic.edu/",
+        "directors": ["Arman Roohi"]
+    },
+    {
+        "name": "Rehabilitation Robotics Laboratory",
+        "department": "MIE",
+        "link": "https://rehab-robotics.lab.uic.edu/",
+        "directors": ["Myunghee Kim"]
+    },
+    {
+        "name": "Bioinspired Robotics and Resilient Intelligence Lab",
+        "department": "MIE",
+        "link": "https://brri.lab.uic.edu/",
+        "directors": ["Abriana Stewart-Height"]
+    },
+    {
+        "name": "Robotics and Motion Laboratory",
+        "department": "MIE",
+        "link": "https://pab47.github.io/",
+        "directors": ["Pranav Bhounsule"]
+    }
+]

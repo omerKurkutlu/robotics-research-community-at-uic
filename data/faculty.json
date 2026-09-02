@@ -1,0 +1,67 @@
+[
+    {
+        "name": "James Patton",
+        "department": "BME",
+        "link": "https://bme.uic.edu/profiles/james-patton-phd/"
+    },
+    {
+        "name": "Ming Wu",
+        "department": "BME",
+        "link": "https://www.sralab.org/researchers/ming-wu-phd"
+    },
+    {
+        "name": "Joseph Michaelis",
+        "department": "CS",
+        "link": "https://lsri.uic.edu/profiles/michaelis-joseph/"
+    },
+    {
+        "name": "Yifan Zhu",
+        "department": "CS",
+        "link": "https://cs.uic.edu/profiles/zhu-yifan/"
+    },
+    {
+        "name": "Yan Yan",
+        "department": "CS",
+        "link": "https://cs.uic.edu/profiles/yan-yan/"
+    },
+    {
+        "name": "Brian Ziebart",
+        "department": "CS",
+        "link": "https://cs.uic.edu/profiles/brian-ziebart/"
+    },
+    {
+        "name": "Igor Paprotny",
+        "department": "ECE",
+        "link": "https://ece.uic.edu/profiles/igor-paprotny-phd/"
+    },
+    {
+        "name": "Shuo Han",
+        "department": "ECE",
+        "link": "https://ece.uic.edu/profiles/shuo-han-phd/"
+    },
+    {
+        "name": "Miloš Žefran",
+        "department": "ECE",
+        "link": "https://ece.uic.edu/profiles/milos-zefran-phd/"
+    },
+    {
+        "name": "Myunghee Kim",
+        "department": "MIE",
+        "link": "https://rehab-robotics.lab.uic.edu/profiles/kim-myunghee/"
+    },
+    {
+        "name": "Abriana Stewart-Height",
+        "department": "MIE",
+        "link": "https://mie.uic.edu/profiles/stewart-height-abriana/"
+    },
+    {
+        "name": "Sabri Cetin",
+        "department": "MIE",
+        "link": "https://mie.uic.edu/profiles/sabri-cetin/"
+    },
+    {
+        "name": "Pranav Bhounsule",
+        "department": "MIE",
+        "link": "https://mie.uic.edu/profiles/bhounsule-pranav/"
+    }
+]
