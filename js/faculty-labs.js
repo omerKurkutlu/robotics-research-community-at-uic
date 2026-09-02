@@ -93,18 +93,31 @@ const renderFaculty = faculty => {
         block.className = "directory-group";
 
         const items = deptFaculty
-            .map(person => `
-                <li>
-                    <a class="faculty-link" href="${person.link}" target="_blank" rel="noopener noreferrer">
-                        ${person.name}
+            .map(person => {
+                const initials = person.name
+                    .split(/\s+/)
+                    .map(part => part[0] || "")
+                    .join("")
+                    .slice(0, 2)
+                    .toUpperCase();
+
+                const photo = person.image
+                    ? `<img class="faculty-photo" src="${person.image}" alt="${person.name}" loading="lazy"
+                            onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'faculty-photo faculty-photo-fallback',textContent:'${initials}'}))">`
+                    : `<span class="faculty-photo faculty-photo-fallback">${initials}</span>`;
+
+                return `
+                    <a class="faculty-card" href="${person.link}" target="_blank" rel="noopener noreferrer">
+                        ${photo}
+                        <span class="faculty-name">${person.name}</span>
                     </a>
-                </li>
-            `)
+                `;
+            })
             .join("");
 
         block.innerHTML = `
             <h2 class="directory-dept">${departmentHeading(dept)}</h2>
-            <ul class="faculty-list">${items}</ul>
+            <div class="faculty-list">${items}</div>
         `;
 
         container.appendChild(block);

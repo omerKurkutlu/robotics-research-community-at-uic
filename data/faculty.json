@@ -2,66 +2,79 @@
     {
         "name": "James Patton",
         "department": "BME",
-        "link": "https://bme.uic.edu/profiles/james-patton-phd/"
+        "link": "https://bme.uic.edu/profiles/james-patton-phd/",
+        "image": "images/faculty/james-patton.jpg"
     },
     {
         "name": "Ming Wu",
         "department": "BME",
-        "link": "https://www.sralab.org/researchers/ming-wu-phd"
+        "link": "https://www.sralab.org/researchers/ming-wu-phd",
+        "image": "images/faculty/ming-wu.png"
     },
     {
         "name": "Joseph Michaelis",
         "department": "CS",
-        "link": "https://lsri.uic.edu/profiles/michaelis-joseph/"
+        "link": "https://lsri.uic.edu/profiles/michaelis-joseph/",
+        "image": "images/faculty/joseph-michaelis.jpg"
     },
     {
         "name": "Yifan Zhu",
         "department": "CS",
-        "link": "https://cs.uic.edu/profiles/zhu-yifan/"
+        "link": "https://cs.uic.edu/profiles/zhu-yifan/",
+        "image": "images/faculty/yifan-zhu.jpg"
     },
     {
         "name": "Yan Yan",
         "department": "CS",
-        "link": "https://cs.uic.edu/profiles/yan-yan/"
+        "link": "https://cs.uic.edu/profiles/yan-yan/",
+        "image": "images/faculty/yan-yan.jpeg"
     },
     {
         "name": "Brian Ziebart",
         "department": "CS",
-        "link": "https://cs.uic.edu/profiles/brian-ziebart/"
+        "link": "https://cs.uic.edu/profiles/brian-ziebart/",
+        "image": "images/faculty/brian-ziebart.jpg"
     },
     {
         "name": "Igor Paprotny",
         "department": "ECE",
-        "link": "https://ece.uic.edu/profiles/igor-paprotny-phd/"
+        "link": "https://ece.uic.edu/profiles/igor-paprotny-phd/",
+        "image": "images/faculty/igor-paprotny.jpg"
     },
     {
         "name": "Shuo Han",
         "department": "ECE",
-        "link": "https://ece.uic.edu/profiles/shuo-han-phd/"
+        "link": "https://ece.uic.edu/profiles/shuo-han-phd/",
+        "image": "images/faculty/shuo-han.jpg"
     },
     {
         "name": "Miloš Žefran",
         "department": "ECE",
-        "link": "https://ece.uic.edu/profiles/milos-zefran-phd/"
+        "link": "https://ece.uic.edu/profiles/milos-zefran-phd/",
+        "image": "images/faculty/milos-zefran.jpg"
     },
     {
         "name": "Myunghee Kim",
         "department": "MIE",
-        "link": "https://rehab-robotics.lab.uic.edu/profiles/kim-myunghee/"
+        "link": "https://rehab-robotics.lab.uic.edu/profiles/kim-myunghee/",
+        "image": "images/faculty/myunghee-kim.jpg"
     },
     {
         "name": "Abriana Stewart-Height",
         "department": "MIE",
-        "link": "https://mie.uic.edu/profiles/stewart-height-abriana/"
+        "link": "https://mie.uic.edu/profiles/stewart-height-abriana/",
+        "image": "images/faculty/abriana-stewart-height.jpg"
     },
     {
         "name": "Sabri Cetin",
         "department": "MIE",
-        "link": "https://mie.uic.edu/profiles/sabri-cetin/"
+        "link": "https://mie.uic.edu/profiles/sabri-cetin/",
+        "image": "images/faculty/sabri-cetin.jpg"
     },
     {
         "name": "Pranav Bhounsule",
         "department": "MIE",
-        "link": "https://mie.uic.edu/profiles/bhounsule-pranav/"
+        "link": "https://mie.uic.edu/profiles/bhounsule-pranav/",
+        "image": "images/faculty/pranav-bhounsule.jpg"
     }
 ]
